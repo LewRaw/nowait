@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--AUTOR: Luiz Gustavo de Salles Pinho; 19/09/2022 -->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gerador Nowait</title>
+    <link rel="icon" href="./ALTs/dracula.png" style="width: 44px;">
+    
+</head>
+<body>
+    <header>
+        <table class="table_footer">
+            <td><p class="footer_desc">Gerador de Nowait Dracula's v1.2</p> </td>
+            <td><img class="img-1" src="./ALTs/dracula.png"></td>
+        </table>
+    </header>
+    <main>
+        <div id="div1" class="divs">
+            <textarea name="textareaBruto" id="txt1" cols="30" rows="10" class="textarea"></textarea>
+            
+        </div>
+        <div id="div2" class="divs">
+            <textarea name="textareaLimpo" id="txt2" cols="30" rows="10" class="textarea"></textarea>
+            <button id="copiar" class="btn-1">Copiar</button>
+        </div>
+        <div id="Dbotao">
+            <button id="teste" onclick="gerarNowait()" class="btn-1">Gerar</button>
+            <button id="clear"  class="btn-1" >Limpar</button> <!--onclick="limpar()"-->
+        </div>
+        <div>
+            <fieldset class="fieldset">
+                <legend >Opções: </legend>
+                <div>
+                    <input type="checkbox" id="parenteses" name="parenteses" class="checkbox" checked>
+                        <label for="parenteses"class="txt5">Remover Parenteses ?</label>
+                </div>
+                <div>       
+                    <input type="checkbox" id="ponto" name="pontos" class="checkbox" checked>    
+                        <label for="ponto"class="txt5">Remover Pontos ?</label>
+                </div>
+            </fieldset>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+    
+</body>
+<footer>
+    
+    
+    
+</footer>
+</html>

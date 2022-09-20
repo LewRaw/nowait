@@ -1,0 +1,197 @@
+/* AUTOR: Luiz Gustavo de Salles Pinho; 19/09/2022 */
+
+
+header, main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Arial;
+}
+
+body{
+    margin: 0%;
+    background: #282A36;
+    background-size:cover;
+    height: 100vh;
+    position: relative;
+}
+
+.teste{
+    width: 100px;
+    height: 40px;
+}
+
+.divs{
+    width: 45%;
+    height: 200px;
+    align-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.div3{
+    float: right;
+}
+
+.img-1{
+    display: flex;
+    width: 68px;
+    margin: auto;
+    margin-left: 4px;
+}
+
+.table_footer{
+    align-self: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+/* .txt2{
+
+} */
+
+#Dbotao{
+    width: 45%;
+    height: 40px;
+    margin-top: 10px;
+    width: fit-content;
+    align-content: center;
+    text-align: center;
+}
+
+
+.textarea{
+    margin: auto;
+    min-height: 70%;
+    min-width: 100%;
+    border-radius: 10px;
+
+    overflow: auto;
+    border-radius: 10px;
+    resize: none;
+
+    background-color: #62677D;
+    border: 2px solid #727788;
+
+    color: #F1FA8C;
+
+    
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    
+    
+    outline: 0;
+    }
+
+.teste {
+    margin: auto;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+
+}
+.teste:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.teste:active {
+	position:relative;
+	top:1px;
+}
+
+.fieldset{
+    margin-top: 10px;
+    border-color: #8BE9F1;
+    color: #8BE9F1;
+}
+
+.checkbox{
+    accent-color: #727788;
+}
+
+
+.title{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size:35px;
+    color: #F1FA8C;
+    text-decoration: underline #F1FA8C;
+    font-style: italic;
+    
+
+    margin-top: 10px;
+}
+
+.test:hover{
+    background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+
+.test:active {
+	position:relative;
+	top:1px;
+}
+
+.test {
+    margin: auto;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+
+}
+
+.footer_desc{
+    font-family:Verdana;
+    font-size: 24px;
+    color: #F1FA8C;
+
+    text-align: center;
+}
+
+
+/* Botoes */
+
+.btn-1{
+    margin: auto;
+
+    width: 100px;
+	background-color:none;
+	border-radius:6px;
+	border:2px solid #FF79AA;
+    background-color: transparent;
+	display:inline-block;
+	cursor:pointer;
+	color:#FF79AA;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+}
+
+#copiar{
+    margin-left: 10px;
+}
+
+.btn-1:hover{
+    background-color: #9b6f7f65;
+}
